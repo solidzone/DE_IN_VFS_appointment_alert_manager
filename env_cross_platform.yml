@@ -1,0 +1,15 @@
+name: visa
+channels:
+  - defaults
+dependencies:
+  - selenium
+  - ca-certificates
+  - certifi
+  - openssl
+  - python==3.10
+  - requests
+  - pip
+  - pip:
+    - yagmail
+    - python-dotenv
+
